@@ -11,7 +11,6 @@
   background-size: cover;
 
   color: rgb(240, 251, 255);
-/* text-align: center; */
 display: flex;
 
 
@@ -23,6 +22,7 @@ display: flex;
     padding-left: 124px;
     padding-top: 230px;
     font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
 }
 .head_description{
   padding-left: 124px;
@@ -94,6 +94,7 @@ justify-content: flex-end;
   font-family:'Montserrat', sans-serif;
   text-align: center;
   color: rgb(255, 255, 255);
+  text-transform:uppercase;
 }
 .text{
   color: rgb(255, 255, 255);
