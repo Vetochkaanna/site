@@ -85,35 +85,60 @@ display: flex;
   color: rgb(255, 255, 255);
   text-transform:uppercase;
 }
-.text{
-  color: rgb(255, 255, 255);
-  font-size: 20px;
-line-height: 24px;
-font-family:'Montserrat', sans-serif;
-text-align: center;
-}
-.svg{
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  padding-bottom: 41px;
 
+.title-2{
+  font-size: 32px;
+  padding-top: 148px;
+  font-family:'Montserrat', sans-serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-transform:uppercase;
 }
+/* ________________________________________ */
+
 .conteiner{
   display: flex;
-  width: 100%;
-  justify-content: space-around;
+  justify-content: center;
   padding-top: 95px;
-
+  max-width: 1800px;
+  /* background-color: rgb(38, 1, 217); */
 }
+
+.colon-3{
+  display: flex;
+  margin: 0 40px;
+  max-width: 360px;
+  flex-direction: column;
+  /* background-color: rgb(182, 218, 35); */
+}
+
+.svg{
+  display: flex;
+  justify-content: center;
+  height: 92px;
+  margin-bottom: 40px;
+  /* background-color:rgb(227, 8, 21); */
+}
+
+.text{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  line-height: 24px;
+  font-family:'Montserrat', sans-serif;
+}
+
+
+
+
 /* БЛОК С КАРТИНКАМИ */
-.objects{
+/* .objects{
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   height: 809px;
   background-color: rgb(251, 236, 39);
-}
+} */
 
 
 
