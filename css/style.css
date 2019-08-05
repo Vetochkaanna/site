@@ -92,6 +92,9 @@
 
 }
 .infoBlock{
+  display: flex;
+flex-wrap: wrap;
+  justify-content: space-between;
   width: 342px;
   height: 142px;
   border-radius: 6px;
@@ -99,10 +102,34 @@
 background-color: rgb(255, 255, 255);
 
 }
+.textBlock{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 39px;
+  margin-bottom: 43px;
+  width: 100%;
+  /* background-color: rgb(242, 132, 147); */
+}
+.textBlock>a{
+  display: flex;
+  padding-left: 28px;
+  padding-right: 29px;
+font-size: 18px;
+text-decoration: none;
+color: #397C8F;
+font-family:'Montserrat', sans-serif;
+
+}
+.strela{
+  display: flex;
+  /* background-color: aqua; */
+    margin-right: 42px;
+    margin-left: 248px;
+}
 
 .title{
   font-size: 32px;
-  padding-top: 100px;
+  padding-top: 206px;
   font-family:'Montserrat', sans-serif;
   text-align: center;
   color: rgb(255, 255, 255);
