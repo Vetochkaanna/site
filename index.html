@@ -93,7 +93,26 @@
 <h5 class="contactsText2">Если у вас есть какие-либо вопросы по работе Черной Стрелы, дополнительным услугам или вы не нашли то, что искали.</h5>
 <h6 class="contactsText3">* отвечаем, в среднем, за 5 минут</h6>
     </div>
-
+    <!-- форма -->
+    <div class="form">
+    <form action="http://www.primer.ru">
+      <!-- форма для заполнения (имя) -->
+      <div class="username">
+  <label for="name">Как к вам обращаться</label><br/>
+    <input type="text" name="name" id="name" onkeyup="checkParams()" placeholder="Ваше имя" required />
+      </div>
+<!-- форма с полем email -->
+      <div class="email">
+  <label for="mail">Электронная почта</label><br/>
+    <input type="email" name="mail" id="email" onkeyup="checkParams()" placeholder="belka23@gmail.com" required />
+      </div>
+<!-- форма с введением комментария -->
+      <div class="comment">
+        <label for="message">Ваше сообщение</label><br/>
+              <textarea name="message">Введите текст</textarea>
+      </div>
+  </form>
+</div>
   </div>
 
 
