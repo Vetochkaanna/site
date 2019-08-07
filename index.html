@@ -96,22 +96,31 @@
     <!-- форма -->
     <div class="form">
     <form action="http://www.primer.ru">
-      <!-- форма для заполнения (имя) -->
+
+      <div class="contact_wrapper">
+  <!-- форма для заполнения (имя) -->
       <div class="username">
-  <label for="name">Как к вам обращаться</label><br/>
+  <p>Как к вам обращаться?</p><br/>
     <input type="text" name="name" id="name" onkeyup="checkParams()" placeholder="Ваше имя" required />
-      </div>
+
 <!-- форма с полем email -->
-      <div class="email">
-  <label for="mail">Электронная почта</label><br/>
+
+  <p>Электронная почта</p><br/>
     <input type="email" name="mail" id="email" onkeyup="checkParams()" placeholder="belka23@gmail.com" required />
-      </div>
+    </div>
 <!-- форма с введением комментария -->
       <div class="comment">
-        <label for="message">Ваше сообщение</label><br/>
+        <p>Ваше сообщение</p><br/>
               <textarea name="message">Введите текст</textarea>
+              <!-- кнопка -->
+              <div class="button_block">
+                <input type="submit" value="Отправить">
+              </div>
+      </div>
       </div>
   </form>
+
+
 </div>
   </div>
 

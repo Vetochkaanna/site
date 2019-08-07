@@ -231,7 +231,47 @@ flex-wrap: wrap;
   font-family: 'Montserrat', sans-serif;
 }
 
+/* ______________форма_________________ */
+.form{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+.contact_wrapper{
+  width: 464px;
+  margin: 0 auto;
+}
 
+input{
+  width: 464px;
+  height: 49px;
+  font-size: 20px;
+  font-size: 16px;
+  margin-bottom: 29px;
+}
+textarea{
+  width: 100%;
+  height: 136px;
+  color: #828282;
+
+}
+.button_block{
+  display: flex;
+  justify-content: center;
+}
+input[type=submit]{
+  width: 166px;
+  height: 46px;
+  background: #528290;
+border-radius: 30px;
+color: #FFFFFF;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.03em;
+margin-top: 102px;
+font-family: 'Montserrat', sans-serif;
+}
 
 /* ___________________________футер___________________ */
 .footer{
