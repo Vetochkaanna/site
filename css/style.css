@@ -237,6 +237,7 @@ flex-wrap: wrap;
   font-size: 16px;
   line-height: 20px;
   font-family: 'Montserrat', sans-serif;
+  margin-top: 62px;
 }
 .contact_wrapper{
   width: 464px;
@@ -249,11 +250,42 @@ input{
   font-size: 20px;
   font-size: 16px;
   margin-bottom: 29px;
+
+  border: 1px solid #323232;
+box-sizing: border-box;
+border-radius: 3px;
 }
 textarea{
   width: 100%;
   height: 136px;
   color: #828282;
+  border: 1px solid #323232;
+box-sizing: border-box;
+border-radius: 3px;
+
+}
+.comment{
+  margin-top: 42px;
+}
+
+.checkbox{
+  display: flex;
+  justify-content: center;
+  margin-top: 38px;
+  font-size: 14px;
+line-height: 17px;
+font-family: 'Montserrat', sans-serif;
+}
+input:first-of-type{
+  margin-right: 20px;
+}
+
+input[type=checkbox]{
+  /* margin-top: 40px; */
+  background: #FFFFFF;
+border-radius: 2px;
+width: 16px;
+height: 16px;
 
 }
 .button_block{
@@ -269,7 +301,7 @@ color: #FFFFFF;
 font-size: 16px;
 line-height: 20px;
 letter-spacing: 0.03em;
-margin-top: 102px;
+margin-top: 23px;
 font-family: 'Montserrat', sans-serif;
 }
 
