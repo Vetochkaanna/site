@@ -187,6 +187,21 @@ font-family:'Montserrat', sans-serif;
   height: 810px;
   background-color: rgb(221, 142, 33);
 }
+.conteiner_objects{
+  width: 100%;
+  display: flex;
+
+}
+
+
+.img_objects{
+  display: flex;
+
+}
+.img_objectsI{
+  display: flex;
+
+}
 /* _________________________блок напиши нам_________________ */
 .contacts{
   width: 100%;
@@ -242,18 +257,21 @@ flex-wrap: wrap;
 .contact_wrapper{
   width: 464px;
   margin: 0 auto;
+
 }
 
 input{
   width: 464px;
   height: 49px;
-  font-size: 20px;
   font-size: 16px;
+  line-height: 20px;
   margin-bottom: 29px;
-
-  border: 1px solid #323232;
+border: 1px solid #323232;
 box-sizing: border-box;
 border-radius: 3px;
+padding-left: 21px;
+font-family: 'Montserrat', sans-serif;
+
 }
 textarea{
   width: 100%;
@@ -262,6 +280,8 @@ textarea{
   border: 1px solid #323232;
 box-sizing: border-box;
 border-radius: 3px;
+padding-left: 21px;
+font-family: 'Montserrat', sans-serif;
 
 }
 .comment{
