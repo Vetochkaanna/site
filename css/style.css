@@ -187,7 +187,17 @@ font-family:'Montserrat', sans-serif;
   height: 809px;
   background-color: rgb(221, 142, 33);
 }
+.conteiner_objects{
+  width: 100%;
 
+}
+.img_objects{
+  display: flex;
+
+}
+.object_block{
+  display: flex;
+}
 /* _________________________блок напиши нам_________________ */
 .contacts{
   width: 100%;
