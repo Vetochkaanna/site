@@ -340,29 +340,32 @@ height: 100%;
   display: flex;
 justify-content: space-around;
 }
+
 .text_footer{
     width: 230px;
   display: flex;
 flex-direction: column;
 align-content: center;
     padding-top: 92px;
-/* justify-content: center; */
-
 }
 .list_contacts{
   width: 800px;
   display: flex;
   /* background-color: rgb(131, 187, 27); */
   justify-content: space-around;
-
-
+}
+.item_lest>a{
+text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.item_lest a:hover{
+    color: #87D9F1
 }
 .list_contacts>ul{
   font-size: 16px;
   line-height: 24px;
       padding-bottom: 46px;
   padding-top: 121px;
-  color: rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
     line-height: 2;
 }
