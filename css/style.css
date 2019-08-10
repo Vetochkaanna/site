@@ -23,7 +23,7 @@
   padding-top: 230px;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  display: none;
+
 }
 .head_description{
   padding-left: 124px;
@@ -42,7 +42,7 @@
   font-size: 28px;
   line-height: 34px;
   font-family: 'Montserrat', sans-serif;
-display: none;
+
 }
 
 .darcer{
@@ -85,6 +85,12 @@ display: none;
 
 
 @media (max-width: 576px) {
+  .head_title{
+    display: none;
+  }
+  .head_slogan{
+    display: none;
+  }
 .blockWrap{
   display: none;}
 .menu{
@@ -127,6 +133,12 @@ margin-top: 60px;
 }
 
 @media (max-width: 992px){
+  .head_title{
+    display: none;
+  }
+  .head_slogan{
+    display: none;
+  }
   .blockWrap{
     display: none;}
   .menu{
@@ -231,7 +243,7 @@ font-family:'Montserrat', sans-serif;
 
 }
 @media (max-width: 576px) {
-  
+
 }
 
 
