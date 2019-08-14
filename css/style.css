@@ -341,10 +341,28 @@ background-size: cover;
 .address4{
   background-image: url(../img/4.jpg);
 }
+.text_bloc{
+  text-transform: uppercase;
+  font-family:'Montserrat', sans-serif;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgb(255, 255, 255);
+}
+.text_address{
+display: flex;
+width: 100%;
+height: 100%;
+align-items: flex-end;
+padding-left: 63px;
+padding-bottom: 58px;
+background-color: rgba(0, 0, 0, 0.63);
+}
 .img_fon{
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   background-color: rgba(0, 0, 0, 0.63);
+}
+
 }
 @media (max-width: 576px){
   .address2, .address3{
