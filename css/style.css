@@ -246,13 +246,7 @@ font-family:'Montserrat', sans-serif;
   /* background-color: aqua; */
     margin-right: 42px;
     margin-left: 248px;
-
 }
-@media (max-width: 576px) {
-
-}
-
-
 /* ____________________________черная стрела______________ */
 .title{
   font-size: 32px;
@@ -305,27 +299,60 @@ font-family:'Montserrat', sans-serif;
   font-family:'Montserrat', sans-serif;
 }
 /* ________________блок с картинками____ */
-.objects{
+.bloc_imgs{
+  display: flex;
+  flex-direction: column;
   width: 100%;
   height: 809px;
   background-color: rgb(221, 142, 33);
 
 }
+.imgs{
+  flex: 1;
+  height: 250px;
+  display: flex;
 
-.conteiner_objects{
+}
+.address1, .address4{
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.address2, .address3{
+  flex: 2;
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.address1{
+  background-image:url(../img/1.jpg);
+
+}
+.address2{
+  background-image: url(../img/2.jpg);
+}
+.address3{
+  background-image: url(../img/3.jpg);
+}
+.address4{
+  background-image: url(../img/4.jpg);
+}
+.img_fon{
   width: 100%;
-  background: rgba(0, 0, 0, 0.63);
-
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.63);
 }
+@media (max-width: 576px){
+  .address2, .address3{
+    flex: 1;}
+  .imgs {
+    flex-direction: column;}
+  }
 
-.img_objects{
-
-  display: flex;
-
-}
-.object_block{
-  display: flex;
-}
 /* _________________________блок напиши нам_________________ */
 .contacts{
   width: 100%;

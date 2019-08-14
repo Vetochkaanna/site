@@ -1,5 +1,9 @@
 .container{
-  display: flex;
+  width: 100%;
+  display: grid;
+  grid-auto-rows: 100%;
+  grid-template-columns: 2fr 5fr;;
+  background-color: rgb(38, 99, 53);
 }
 
 .side_bar{
@@ -24,6 +28,7 @@ color: #FFFFFF;
 font-family: 'Montserrat', sans-serif;
 }
 .addres{
+  max-width: 240px;
 }
 .addres_item>a{
   text-decoration: none;
@@ -31,6 +36,7 @@ font-family: 'Montserrat', sans-serif;
   line-height: 17px;
   color: #FFFFFF;
   font-family: 'Montserrat', sans-serif;
+
 }
 .line{
   padding-top: 41px;
@@ -42,6 +48,9 @@ color: #FFFFFF;
 text-decoration: none;
 font-family: 'Montserrat', sans-serif;
 line-height:40px;
+}
+.item a:hover{
+  color: #87D9F1
 }
 .services_output{
   padding-top: 85px;
@@ -55,35 +64,42 @@ padding-right: 90px;
   font-family: 'Montserrat', sans-serif;
   line-height:40px;
 }
+.item_output a:hover{
+  color: #87D9F1
+}
 .social{
   display: flex;
   justify-content: space-between;
 }
-
-.container{
-  display: flex;
-}
-
-.content_menu{
-  background-color: red;
-  width: 100%;
-  height: 100%;
-  display: flex;
+.service_options{
+  width: 1092px;
+  height: 763px;
+  /* background-color: rgb(53, 232, 127); */
 }
 .menu{
-  padding-top: 50px;
-  display: flex;
-  justify-content: flex-end;
-  justify-content: space-between;
-  width: 881px;
-  height: 26px;
+  margin-top: 50px;
+      display: flex;
+      justify-content: space-between;
+      width: 1000px;
+      height: 26px;
+      background-color: rgb(51, 88, 232);
+      float: right;
+      padding-right: 124px;
+}
+.menu_item>a{
+
+  width: auto;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+color: #2C2C2C;
+}
+/* ____________________________услуги__________________ */
+.conteiner_box{
+  background-color: rgb(242, 177, 234);
 
 }
+.service_menu{
 
-.menu_box>a{
-text-decoration: none;
-font-family: 'Montserrat', sans-serif;
-font-size: 18px;
-line-height: 22px;
-color: #2C2C2C;
 }
