@@ -127,10 +127,10 @@ padding-top: 42px;
 }
 .menu_filter a:hover{
 background: #3A5F6A;
-border-radius: 20px;
-width: 76px;
-height: 40px;
+border-radius: 15px;
+color: rgb(245, 251, 247);
 }
+
 .menu_filters>a{
   font-size: 16px;
 line-height: 28px;
