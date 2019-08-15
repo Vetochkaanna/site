@@ -94,6 +94,8 @@ padding-right: 105px;
   line-height: 22px;
 color: #2C2C2C;
 }
+.menu_item a:hover{
+color: #87D9F1;}
 /* ____________________________услуги__________________ */
 .conteiner_box{
 background: #F6F6F6;
@@ -122,6 +124,12 @@ height: 26px;
 padding-right: 105px;
 padding-top: 42px;
 
+}
+.menu_filter a:hover{
+background: #3A5F6A;
+border-radius: 20px;
+width: 76px;
+height: 40px;
 }
 .menu_filters>a{
   font-size: 16px;
