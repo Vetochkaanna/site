@@ -3,7 +3,7 @@
   display: grid;
   grid-auto-rows: 100%;
   grid-template-columns: 2fr 5fr;;
-  background-color: rgb(38, 99, 53);
+
 }
 
 .side_bar{
@@ -96,7 +96,7 @@ color: #2C2C2C;
 }
 /* ____________________________услуги__________________ */
 .conteiner_box{
-  background-color: rgb(242, 177, 234);
+background: #F6F6F6;
 
 }
 .service_menu{
@@ -110,6 +110,7 @@ padding-left: 142px;
 font-size: 24px;
 line-height: 28px;
 color: #528290;
+font-family: 'Montserrat', sans-serif;
 }
 .service-filter{
 
@@ -129,4 +130,50 @@ width: auto;
 text-decoration: none;
 font-family: 'Montserrat', sans-serif;
 color: #528290;
+}
+
+/* блоки услуг */
+.blocks{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+padding-top: 60px;
+}
+.serves_block{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding-right: 122px;
+}
+.block_header{
+background: #F6F6F6;
+border: 1px solid #528290;
+box-sizing: border-box;
+border-radius: 3px;
+width: 250px;
+height: 180px;
+
+padding-top: 31px;
+padding-left: 21px;
+display: flex;
+flex-direction: column;
+margin-bottom: 35px;
+}
+.block_header>p{
+  display: flex;
+  flex-direction: column;
+}
+.heading_blocks{
+  font-size: 18px;
+line-height: 28px;
+color: #528290;
+font-family: 'Montserrat', sans-serif;
+}
+.text_blocks{
+font-size: 14px;
+line-height: 18px;
+color: #2C2C2C;
+font-family: 'Montserrat', sans-serif;
+padding-top: 10px;
+padding-right: 33px;
 }
